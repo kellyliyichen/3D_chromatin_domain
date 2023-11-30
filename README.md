@@ -23,4 +23,4 @@ git clone https://github.com/kellyliyichen/3D_chromatin_domain.git
 
 
 ## Instruction
-
+To calculate intra-TAD ratio using SPRITE data, follow the instruction in [code/bulk_sprite/sprite/README.md](code/bulk_sprite/sprite/README.md)
