@@ -5,3 +5,22 @@ This page contains major analysis code and example data for the following manusc
 <p align="center" width="100%">
     <img src=img/TAD.jpg width=70% height=70%>
 </p>
+
+
+## Requirement
+- [Python](https://www.python.org) (>=3.8.5)
+- [NumPy](https://numpy.org) (>=1.19.1)
+- [pandas](https://pandas.pydata.org/) (>=1.1.1)
+- [scikit-learn ](https://scikit-learn.org/stable/) (>=0.23.2)
+- [SciPy](https://scipy.org/) (>=1.5.2)
+- [Matplotlib](https://matplotlib.org/) (>=3.3.2)
+
+
+## Installation
+```
+git clone https://github.com/kellyliyichen/3D_chromatin_domain.git
+```
+
+
+## Instruction
+
