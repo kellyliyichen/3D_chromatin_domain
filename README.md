@@ -23,6 +23,6 @@ git clone https://github.com/kellyliyichen/3D_chromatin_domain.git
 
 
 ## Instruction
-- To calculate intra-scDomain ratio using imaging data, follow the instruction [here] (scripts/sc_imaging/README.md)
+- To calculate intra-scDomain ratio using imaging data, follow the instruction [here](scripts/sc_imaging/README.md)
 - To calculate intra-TAD ratio using SPRITE data, follow the instruction [here](scripts/bulk_sprite/sprite/README.md)
-- To calculate intra-TAD ratio using Hi-C data, follow the instruction [here]](scripts/bulk_sprite/hic/README.md)
+- To calculate intra-TAD ratio using Hi-C data, follow the instruction [here](scripts/bulk_sprite/hic/README.md)
