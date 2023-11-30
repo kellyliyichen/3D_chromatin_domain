@@ -68,17 +68,13 @@ def intraTAD_ratio(all_tad_bins, tad_bin_dict, contact_mat, intraTAD_ratio_file,
 
 
 if __name__ == '__main__':
-    outdir = sys.argv[1]
-    rep = sys.argv[2]
-    sc_loc_file = sys.argv[3]
-    intraTAD_ratio_file = sys.argv[4]
+    rep = sys.argv[1]
+    sc_loc_file = sys.argv[2]
+    intraTAD_ratio_file = sys.argv[3]
 
     res = '50000'
     chrom = '21'
 
-
-    if not os.path.exists(outdir):
-        os.makedirs(outdir, exist_ok=True)
 
     data = pd.read_csv(sc_loc_file, sep = '\t', names = ['bin_id', 'bin_tad', 'z', 'x', 'y', 'cell_id'])
     data['tad_id'] = data['bin_tad'].str.split('&', 1).str[1]
